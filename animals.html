@@ -14,6 +14,22 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-link">
+                    <a class="nav-link active" aria-current="page" href="plane.html">Plane</a>
+                  </li>
+                  <li class="nav-link">
+                    <a class="nav-link active" href="train.html">Train</a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
     <h1>"Animals by Akshay krishna kintali"</h1>
     <br>
     <div class="container">
@@ -149,6 +165,36 @@
           <button type="button" class="btn btn-danger">L</button>
         </div>
       </div>
+      <br>
+      <div class="dropdown">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="plane.html">Plane Page</a></li>
+            <li class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="train.html">Train Page</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">&nbsp;Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">&nbsp;We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Animal" class="form-label">&nbsp;Enter your animal</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">&nbsp;Sign up for newsletter? </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
       <br>
 
 </body>
